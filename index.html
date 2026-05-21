@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Perry's Cake's & Event Management</title>
+<style>
+    * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Segoe UI', sans-serif; }
+  
+  body { background: #fff8f5; color: #333; line-height: 1.6; }
+
+  header {
+    background: #d6336c;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+
+  header h1 { font-size: 2rem; }
+  header p { font-size: 1rem; opacity: 0.9; }
+
+  .hero {
+    text-align: center;
+    padding: 60px 20px;
+    background: url('https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=1200') center/cover;
+    color: white;
+  }
+
+  .hero h2 { font-size: 2.5rem; margin-bottom: 10px; text-shadow: 2px 2px 6px rgba(0,0,0,0.5); }
+  .hero p { font-size: 1.2rem; margin-bottom: 20px; text-shadow: 1px 1px 4px rgba(0,0,0,0.5); }
+
+  .btn {
+    display: inline-block;
+    background: #25D366;
+    color: white;
+    padding: 14px 28px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+  .btn:hover { background: #1ebe5d; transform: scale(1.05); }
+
+  section { padding: 50px 20px; max-width: 1000px; margin: auto; }
+
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+  }
+
+  .gallery img {
+    width: 100%;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  }
+
+  .about, .contact {
+    text-align: center;
+  }
+
+  .about h3, .contact h3, .gallery-section h3 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    color: #d6336c;
+  }
+
+  footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+  }
+
+  @media(max-width: 600px){
+    .hero h2 { font-size: 1.8rem; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Perry's Cake's & Event Management</h1>
+  <p>Freshly baked cakes for every occasion</p>
+</header>
+
+<div class="hero">
+  <h2>Celebrate with Sweetness</h2>
+  <p>Birthday, Wedding, Anniversary – we bake it perfect</p>
+  <a href="https://wa.me/2348131132162?text=Hi%20Perry's%20Cake's!%20I%20want%20to%20order%20a%20cake" class="btn">Order on WhatsApp</a>
+</div>
+
+<section class="gallery-section">
+  <h3>Our Cakes</h3>
+  <div class="gallery">
+    <img src="https://images.unsplash.com/photo-1606313564200-e75d5e30476c?w=500" alt="Chocolate Cake">
+    <img src="https://images.unsplash.com/photo-1621303837174-89787a7d4729?w=500" alt="Vanilla Cake">
+    <img src="https://images.unsplash.com/photo-1586985289688-ca3cf47d3e6e?w=500" alt="Red Velvet Cake">
+    <img src="https://images.unsplash.com/photo-1614707267537-b85aaf5c50b9?w=500" alt="Cupcakes">
+  </div>
+</section>
+
+<section class="about">
+  <h3>Why Choose Us</h3>
+  <p>We use fresh ingredients and bake with love for birthdays, weddings, and events across Nigeria. 
+  Fast delivery, beautiful designs, and taste you’ll never forget.</p>
+</section>
+
+<section class="contact">
+  <h3>Get In Touch</h3>
+  <p>Ready to order? Chat with us directly on WhatsApp</p>
+  <br>
+  <a href="https://wa.me/2348131132162" class="btn">Chat Now</a>
+</section>
+
+<footer>
+  <p>© 2026 Perry's Cake's & Event Management | +234 813 113 2162</p>
+</footer>
+
+</body>
+</html>
